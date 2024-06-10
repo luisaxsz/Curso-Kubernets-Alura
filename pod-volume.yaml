@@ -12,5 +12,5 @@ spec:
   volumes:
     - name: primeiro-volume
       hostPath:
-        path: /C/Users/maria/Documents/Cursos/kubernets/primeiro-volume
+        path: C/Users/maria/Documents/Cursos/kubernets/primeiro-volume
         type: Directory
