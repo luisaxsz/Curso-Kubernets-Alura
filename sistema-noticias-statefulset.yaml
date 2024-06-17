@@ -22,3 +22,8 @@ spec:
           envFrom:
             - configMapRef:
                 name: sistema-configmap
+          # volumeMounts:
+          #   - name: imagens-volume
+          #     mountPath: /app/imagens
+          #   - name: sessao-volume
+          #     mountPath: /app/sessao
